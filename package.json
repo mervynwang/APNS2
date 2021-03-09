@@ -1,6 +1,6 @@
 {
-  "name": "apns-http2",
-  "version": "1.0.6",
+  "name": "@mervyn/apns-http2",
+  "version": "1.0.7",
   "description": "This module provides wrapper to send push notification based on HTTP/2 protocol",
   "main": "lib/apns-http2.js",
   "dependencies": {
@@ -21,9 +21,9 @@
     "http2"
   ],
   "author": "Mervyn Wang <alpe.g2@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/harry1064/APNS2/issues"
+    "url": "https://github.com/mervynwang/APNS2"
   },
-  "homepage": "https://github.com/harry1064/APNS2#readme"
+  "homepage": "https://github.com/mervynwang/APNS2"
 }
