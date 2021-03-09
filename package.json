@@ -4,7 +4,7 @@
   "description": "This module provides wrapper to send push notification based on HTTP/2 protocol",
   "main": "lib/apns-http2.js",
   "dependencies": {
-    "http2": ""
+    "http2-wrapper": "^2.0.0"
   },
   "engines": {
     "node": ">=6"
@@ -20,7 +20,7 @@
     "apns",
     "http2"
   ],
-  "author": "Harpreet Singh <harry.singh1064@gmail.com>",
+  "author": "Mervyn Wang <alpe.g2@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/harry1064/APNS2/issues"
