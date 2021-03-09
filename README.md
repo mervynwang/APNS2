@@ -35,7 +35,7 @@ const apnsClient = new APNS({
 ### Sending Push Notification
 
 ```javascript
-const Notification = APNS.Notification;
+const Notification = APNS.Notification();
 
 const aps = {
         badge : 9,
@@ -55,6 +55,9 @@ const options = {
 const notification = new Notification(deviceToken, options);
 apnsClient.send(notification)
 .then((res) => {
+	if(res.status != 200) {
+		console.log(res.body)
+	}
     console.log("response:  ");
     console.dir(res);
 }).catch((err) => {
