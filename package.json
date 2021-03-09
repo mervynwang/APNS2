@@ -1,5 +1,5 @@
 {
-  "name": "@mervyn/apns-http2",
+  "name": "apns-http2-v2",
   "version": "1.0.7",
   "description": "This module provides wrapper to send push notification based on HTTP/2 protocol",
   "main": "lib/apns-http2.js",
